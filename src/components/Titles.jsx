@@ -1,0 +1,340 @@
+const Titles = {
+  login: {
+    title: "Maydaan | Login",
+    description: "Maydaan | Login",
+    ogTitle: "Maydaan | Login",
+    ogDescription: "Maydaan | Login",
+    ogImage:
+      "https://maydaan.in/service//storage/app/public/banner_images/100453.jpg",
+    link: "https://maydaan.in/login",
+  },
+  signUp: {
+    title: "Maydaan | Signup",
+    description: "Maydaan | Signup",
+    ogTitle: "Maydaan | Signup",
+    ogDescription: "Maydaan | Signup",
+    ogImage:
+      "https://maydaan.in/service//storage/app/public/banner_images/100453.jpg",
+    link: "https://maydaan.in/signup",
+  },
+
+  manageOrder: {
+    title: "Maydaan | Manage Order",
+    description: "Maydaan | Manage Order",
+    ogTitle: "Maydaan | Manage Order",
+    ogDescription: "Maydaan | Manage Order",
+    ogImage:
+      "https://maydaan.in/service//storage/app/public/banner_images/100453.jpg",
+    link: "https://maydaan.in/manage-order",
+  },
+
+  addressBook: {
+    title: "Maydaan | Address Book",
+    description: "Maydaan |Address Book",
+    ogTitle: "Maydaan | Address Book",
+    ogDescription: "Maydaan | Address Book",
+    ogImage:
+      "https://maydaan.in/service//storage/app/public/banner_images/100453.jpg",
+    link: "https://maydaan.in/address-book",
+  },
+  // myAttendance: {
+  //     title: "Maydaan | My Attendance",
+  //     description: "Maydaan |My Attendance",
+  //     ogTitle: "Maydaan | My Attendance",
+  //     ogDescription: "Maydaan | My Attendance",
+  //     ogImage: "https://maydaan.in/service//storage/app/public/banner_images/100453.jpg",
+  //     link: "https://maydaan.in/manage-order",
+  // },
+  bankDetails: {
+    title: "Maydaan |  Bank Details",
+    description: "Maydaan | Bank Details",
+    ogTitle: "Maydaan |  Bank Details",
+    ogDescription: "Maydaan |  Bank Details",
+    ogImage:
+      "https://maydaan.in/service//storage/app/public/banner_images/100453.jpg",
+    link: "https://maydaan.in/bank-details",
+  },
+  cart: {
+    title: "Maydaan | Cart",
+    description: "Maydaan |Cart",
+    ogTitle: "Maydaan | Cart",
+    ogDescription: "Maydaan | Cart",
+    ogImage:
+      "https://maydaan.in/service//storage/app/public/banner_images/100453.jpg",
+    link: "https://maydaan.in/cart",
+  },
+  changePassword: {
+    title: "Maydaan | Change Password",
+    description: "Maydaan |Change Password",
+    ogTitle: "Maydaan | Change Password",
+    ogDescription: "Maydaan | Change Password",
+    ogImage:
+      "https://maydaan.in/service//storage/app/public/banner_images/100453.jpg",
+    link: "https://maydaan.in/change-password",
+  },
+  ourTrainers: {
+    title: "Maydaan | Our Trainers",
+    description: "Maydaan |Our Trainers",
+    ogTitle: "Maydaan | Our Trainers",
+    ogDescription: "Maydaan | Our Trainers",
+    ogImage:
+      "https://maydaan.in/service//storage/app/public/banner_images/100453.jpg",
+    link: "https://maydaan.in/our-trainers",
+  },
+  aboutUs: {
+    title: "Maydaan | About Us",
+    description: "Maydaan |About Us",
+    ogTitle: "Maydaan | About Us",
+    ogDescription: "Maydaan | About Us",
+    ogImage:
+      "https://maydaan.in/service//storage/app/public/banner_images/100453.jpg",
+    link: "https://maydaan.in/about-us",
+  },
+  contactUs: {
+    title: "Maydaan | Contact Us",
+    description: "Maydaan |Contact Us",
+    ogTitle: "Maydaan |Contact Us",
+    ogDescription: "Maydaan | Contact Us",
+    ogImage:
+      "https://maydaan.in/service//storage/app/public/banner_images/100453.jpg",
+    link: "https://maydaan.in/contact-us",
+  },
+  faq: {
+    title: "Maydaan | FAQ",
+    description: "Maydaan |FAQ",
+    ogTitle: "Maydaan |FAQ",
+    ogDescription: "Maydaan |FAQ",
+    ogImage:
+      "https://maydaan.in/service//storage/app/public/banner_images/100453.jpg",
+    link: "https://maydaan.in/faq",
+  },
+  privacyPolicy: {
+    title: "Maydaan | Privacy Policy",
+    description: "Maydaan |Privacy Policy",
+    ogTitle: "Maydaan |Privacy Policy",
+    ogDescription: "Maydaan |Privacy Policy",
+    ogImage:
+      "https://maydaan.in/service//storage/app/public/banner_images/100453.jpg",
+    link: "https://maydaan.in/privacy-policy",
+  },
+  termsAndConditions: {
+    title: "Maydaan | Terms and Conditions ",
+    description: "Maydaan |Terms and Conditions",
+    ogTitle: "Maydaan |Terms and Conditions",
+    ogDescription: "Maydaan |Terms and Conditions",
+    ogImage:
+      "https://maydaan.in/service//storage/app/public/banner_images/100453.jpg",
+    link: "https://maydaan.in/terms-and-conditions",
+  },
+  userDashboard: {
+    title: "Maydaan | Dashboard ",
+    description: "Maydaan | Dashboard",
+    ogTitle: "Maydaan | Dashboard",
+    ogDescription: "Maydaan | Dashboard",
+    ogImage:
+      "https://maydaan.in/service//storage/app/public/banner_images/100453.jpg",
+    link: "https://maydaan.in/user-dashboard",
+  },
+  clubEditProfile: {
+    title: "Maydaan |  Club Edit Profile ",
+    description: "Maydaan |  Club Edit Profile",
+    ogTitle: "Maydaan |  Club Edit Profile",
+    ogDescription: "Maydaan |  Club Edit Profile",
+    ogImage:
+      "https://maydaan.in/service//storage/app/public/banner_images/100453.jpg",
+    link: "https://maydaan.in/club-edit-profile",
+  },
+
+  trainerEditProfile: {
+    title: "Maydaan | Trainer Edit Profile ",
+    description: "Maydaan | Trainer Edit Profile",
+    ogTitle: "Maydaan | Trainer Edit Profile",
+    ogDescription: "Maydaan | Trainer Edit Profile",
+    ogImage:
+      "https://maydaan.in/service//storage/app/public/banner_images/100453.jpg",
+    link: "https://maydaan.in/trainer-edit-profile",
+  },
+  userEditProfile: {
+    title: "Maydaan | User Edit Profile ",
+    description: "Maydaan | User Edit Profile",
+    ogTitle: "Maydaan | User Edit Profile",
+    ogDescription: "Maydaan | User Edit Profile",
+    ogImage:
+      "https://maydaan.in/service//storage/app/public/banner_images/100453.jpg",
+    link: "https://maydaan.in/user-edit-profile",
+  },
+  eventManagement: {
+    title: "Maydaan | Event Management ",
+    description: "Maydaan | Event Management",
+    ogTitle: "Maydaan | Event Management",
+    ogDescription: "Maydaan | Event Management",
+    ogImage:
+      "https://maydaan.in/service//storage/app/public/banner_images/100453.jpg",
+    link: "https://maydaan.in/event-management",
+  },
+  forgotPassword: {
+    title: "Maydaan | Forgot Password ",
+    description: "Maydaan | Forgot Password",
+    ogTitle: "Maydaan | Forgot Password",
+    ogDescription: "Maydaan | Forgot Password",
+    ogImage: "https://maydaan.in/service//storage/app/public/banner_images/100453.jpg",
+    link: "https://maydaan.in/forgot-password",
+},
+addBannerImage: {
+    title: "Maydaan | Add Banner Image ",
+    description: "Maydaan | Add Banner Image",
+    ogTitle: "Maydaan | Add Banner Image",
+    ogDescription: "Maydaan | Add Banner Image",
+    ogImage: "https://maydaan.in/service//storage/app/public/banner_images/100453.jpg",
+    link: "https://maydaan.in/add-banner",
+},
+gallery: {
+    title: "Maydaan | Gallery ",
+    description: "Maydaan | Gallery",
+    ogTitle: "Maydaan | Gallery",
+    ogDescription: "Maydaan | Gallery",
+    ogImage: "https://maydaan.in/service//storage/app/public/banner_images/100453.jpg",
+    link: "https://maydaan.in/gallerGallery",
+},
+myAssociatedClubs: {
+    title: "Maydaan | My Associated Clubs ",
+    description: "Maydaan | My Associated Clubs",
+    ogTitle: "Maydaan | My Associated Clubs",
+    ogDescription: "Maydaan | My Associated Clubs",
+    ogImage: "https://maydaan.in/service//storage/app/public/banner_images/100453.jpg",
+    link: "https://maydaan.in/my-associated-club",
+},
+myEarning: {
+    title: "Maydaan |  My Earning ",
+    description: "Maydaan |  My Earning",
+    ogTitle: "Maydaan |  My Earning",
+    ogDescription: "Maydaan |  My Earning",
+    ogImage: "https://maydaan.in/service//storage/app/public/banner_images/100453.jpg",
+    link: "https://maydaan.in/my-earning",
+},
+ myEarningFromMembership: {
+    title: "Maydaan |  My Earning from Membership ",
+    description: "Maydaan |  My Earning from Membership",
+    ogTitle: "Maydaan |  My Earning from Membership",
+    ogDescription: "Maydaan |  My Earning from Membership",
+    ogImage: "https://maydaan.in/service//storage/app/public/banner_images/100453.jpg",
+    link: "https://maydaan.in/my-earning-from-membership",
+},
+myEarningFromProduct: {
+    title: "Maydaan | My Earning from Product ",
+    description: "Maydaan | My Earning from Product",
+    ogTitle: "Maydaan | My Earning from Product",
+    ogDescription: "Maydaan | My Earning from Product",
+    ogImage: "https://maydaan.in/service//storage/app/public/banner_images/100453.jpg",
+    link: "https://maydaan.in/my-earning-from-product",
+}, 
+myOrders: {
+    title: "Maydaan | My Orders ",
+    description: "Maydaan | My Orders",
+    ogTitle: "Maydaan | My Orders",
+    ogDescription: "Maydaan | My Orders",
+    ogImage: "https://maydaan.in/service//storage/app/public/banner_images/100453.jpg",
+    link: "https://maydaan.in/my-orders",
+},
+myPostedReview: {
+    title: "Maydaan | My Posted Review ",
+    description: "Maydaan | My Posted Review",
+    ogTitle: "Maydaan | My Posted Review",
+    ogDescription: "Maydaan | My Posted Review",
+    ogImage: "https://maydaan.in/service//storage/app/public/banner_images/100453.jpg",
+    link: "https://maydaan.in/my-posted-reviews",
+},
+
+myReview: {
+    title: "Maydaan | My Review ",
+    description: "Maydaan | My Review",
+    ogTitle: "Maydaan | My Review",
+    ogDescription: "Maydaan | My Review",
+    ogImage: "https://maydaan.in/service//storage/app/public/banner_images/100453.jpg",
+    link: "https://maydaan.in/my-reviews",
+},
+myTrainers: {
+    title: "Maydaan | My Trainers ",
+    description: "Maydaan | My Trainers",
+    ogTitle: "Maydaan | My Trainers",
+    ogDescription: "Maydaan | My Trainers",
+    ogImage: "https://maydaan.in/service//storage/app/public/banner_images/100453.jpg",
+    link: "https://maydaan.in/my-trainers",
+},
+paymentDetails: {
+    title: "Maydaan | Payment Details ",
+    description: "Maydaan | Payment Details",
+    ogTitle: "Maydaan | Payment Details",
+    ogDescription: "Maydaan | Payment Details",
+    ogImage: "https://maydaan.in/service//storage/app/public/banner_images/100453.jpg",
+    link: "https://maydaan.in/payment-details",
+},
+
+paymentSummery: {
+    title: "Maydaan | Payment Summery ",
+    description: "Maydaan | Payment Summery",
+    ogTitle: "Maydaan | Payment Summery",
+    ogDescription: "Maydaan | Payment Summery",
+    ogImage: "https://maydaan.in/service//storage/app/public/banner_images/100453.jpg",
+    link: "https://maydaan.in/payment-summery",
+},
+manageProduct: {
+    title: "Maydaan | Manage Products ",
+    description: "Maydaan | Manage Products",
+    ogTitle: "Maydaan | Manage Products",
+    ogDescription: "Maydaan | Manage Products",
+    ogImage: "https://maydaan.in/service//storage/app/public/banner_images/100453.jpg",
+    link: "https://maydaan.in/manage-products",
+},
+searchClub: {
+    title: "Maydaan | Search Club ",
+    description: "Maydaan | Search Club",
+    ogTitle: "Maydaan | Search Club",
+    ogDescription: "Maydaan | Search Club",
+    ogImage: "https://maydaan.in/service//storage/app/public/banner_images/100453.jpg",
+    link: "https://maydaan.in/search-club",
+},
+searchEvent: {
+    title: "Maydaan | Search Event ",
+    description: "Maydaan | Search Event",
+    ogTitle: "Maydaan | Search Event",
+    ogDescription: "Maydaan | Search Event",
+    ogImage: "https://maydaan.in/service//storage/app/public/banner_images/100453.jpg",
+    link: "https://maydaan.in/search-event",
+},
+searchProduct: {
+    title: "Maydaan | Search Product ",
+    description: "Maydaan | Search Product",
+    ogTitle: "Maydaan | Search Product",
+    ogDescription: "Maydaan | Search Product",
+    ogImage: "https://maydaan.in/service//storage/app/public/banner_images/100453.jpg",
+    link: "https://maydaan.in/search-product",
+},
+searchTrainer: {
+    title: "Maydaan | Search Trainer ",
+    description: "Maydaan | Search Trainer",
+    ogTitle: "Maydaan | Search Trainer",
+    ogDescription: "Maydaan | Search Trainer",
+    ogImage: "https://maydaan.in/service//storage/app/public/banner_images/100453.jpg",
+    link: "https://maydaan.in/search-trainer",
+},
+myWishList: {
+    title: "Maydaan | My Wish List ",
+    description: "Maydaan | My Wish List",
+    ogTitle: "Maydaan | My Wish List",
+    ogDescription: "Maydaan | My Wish List",
+    ogImage: "https://maydaan.in/service//storage/app/public/banner_images/100453.jpg",
+    link: "https://maydaan.in/wish-list",
+},
+
+withdrawal: {
+  title: "Maydaan | Withdrawal ",
+  description: "Maydaan | Withdrawal",
+  ogTitle: "Maydaan | Withdrawal",
+  ogDescription: "Maydaan | Withdrawal",
+  ogImage: "https://maydaan.in/service//storage/app/public/banner_images/100453.jpg",
+  link: "https://maydaan.in/withdrawal",
+},
+};
+
+export default Titles;

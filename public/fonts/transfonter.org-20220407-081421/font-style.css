@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'Candara';
+    src: url('Candara-Bold.woff2') format('woff2'),
+        url('Candara-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Candara';
+    src: url('Candara.woff2') format('woff2'),
+        url('Candara.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aquarion';
+    src: url('Aquarion.woff2') format('woff2'),
+        url('Aquarion.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Candara';
+    src: url('Candara-BoldItalic.woff2') format('woff2'),
+        url('Candara-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NBA Wizards';
+    src: url('NBAWizards.woff2') format('woff2'),
+        url('NBAWizards.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Candara';
+    src: url('Candara-Italic.woff2') format('woff2'),
+        url('Candara-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+

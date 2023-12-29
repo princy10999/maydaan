@@ -1,0 +1,235 @@
+#thumbnail-slider {
+	height:361px;
+	display:inline-block;
+	padding:22px 0 0;
+	position:relative;
+	-webkit-user-select:none;
+	user-select:none;
+	
+}
+#thumbnail-slider div.inner {
+	border-radius:0;
+	background-color:#FFF;
+	padding:0;
+	height:100%;
+	box-sizing:border-box;
+	position:relative;
+	overflow:hidden;
+	margin:0;
+	background: transparent;
+}
+#thumbnail-slider div.inner ul {
+	position:relative;
+	left:0;
+	top:0;
+	list-style:none;
+	font-size:0;
+	padding:0;
+	margin:0;
+	float:left!important;
+	width:auto!important;
+	height:auto!important;
+}
+#thumbnail-slider ul li {
+	opacity:1;
+	display:block;
+	margin:16px 0 14px 0;
+	transition:all 0.5s;
+	text-align:center;
+	padding:0;
+	position:relative;
+	list-style:none;
+	box-sizing:content-box;
+	backface-visibility:hidden;
+}
+#thumbnail-slider ul li {
+	width: 93px !important;
+	height: 65px !important;
+	text-align: center;
+}
+#thumbnail-slider ul li.active {
+	border-color:white;
+	-webkit-filter:initial;
+	filter:initial;
+}
+#thumbnail-slider li:hover {
+	border-color:rgba(255, 255, 255, 0.5);
+	-webkit-filter:grayscale(50%);
+	filter:grayscale(50%);
+}
+#thumbnail-slider .thumb {
+	width:100%;
+	height:100%;
+	background-size:contain;
+	background-repeat:no-repeat;
+	background-color: #3e3e3e;
+	background-position:center center;
+	display:block;
+	position:absolute;
+	font-size:0;
+}
+#thumbnail-slider-pause-play {
+	display:none;
+}
+#thumbnail-slider-prev, #thumbnail-slider-next {
+	position: absolute;
+	background-color: #da7b93;
+	width: 100%;
+	height: 26px;
+	line-height: 30px;
+	text-align: center;
+	margin: 0;
+	color: #fff;
+	z-index: 10;
+	cursor: pointer;
+	transition: opacity 0.6s;
+	backface-visibility: hidden;
+	bottom: -26px !important;
+	border: 1px solid #da7b93;
+	margin: 0 auto;
+	float: none;
+	right: 0;
+	left: 0;
+}
+#thumbnail-slider-prev {
+	top:0;
+}
+#thumbnail-slider-next {
+	bottom:0;
+}
+#thumbnail-slider-next.disabled, #thumbnail-slider-prev.disabled {/*opacity:0.1;*/
+	cursor:default;
+}
+#thumbnail-slider-prev::before, #thumbnail-slider-next::before {
+ position:absolute;
+ content:"";
+ display:inline-block;
+ width: 11px;
+height: 11px;
+margin-left: -5px;
+margin-top: 2px;
+border-left: 2px solid #FFF;
+border-top: 2px solid #FFF;
+}
+#thumbnail-slider-prev:hover, #thumbnail-slider-next:hover {
+	background-color: #376f70;
+	border: 1px solid #376f70;
+}
+#thumbnail-slider-prev::before {
+top:8px;
+-ms-transform:rotate(-45deg);
+-webkit-transform:rotate(45deg);
+transform:rotate(45deg);
+}
+#thumbnail-slider-next::before {
+bottom:10px;
+-ms-transform:rotate(135deg);
+-webkit-transform:rotate(-135deg);
+transform:rotate(-135deg);
+}
+
+
+
+@media(max-width:1199px) {
+#thumbnail-slider ul li {
+	/* width: 86px !important; */
+	/*height: 102px !important;*/
+}
+#ninja-slider {
+	width: 76%;
+	margin-left: 0;
+}
+#ninja-slider ul {
+	height: 377 !important;
+}
+#ninja-slider {
+	height: 377px;
+}
+.pro_slider {
+    width: 57%;
+}
+.pro_desright {
+	width: 40%;
+	padding-left: 0px;
+}
+}
+
+
+@media(max-width:991px) {
+#ninja-slider {
+    width: 87%;
+    margin-left: 0;
+}
+#thumbnail-slider ul li {
+	width: 68px !important;
+	height: 75px !important;
+}
+#thumbnail-slider ul li {
+    margin: 6px 0 4px 0;
+}
+#thumbnail-slider {
+	height: 292px;
+}
+#ninja-slider ul {
+    height: 292px !important;
+}
+#ninja-slider {
+	height: 292px;
+}
+
+.pro_slider {
+    width: 100%;
+    margin: 0 0 25px 0;
+}
+.pro_desright {
+    width: 100%;
+    padding-left: 0px;
+}
+.mt_pdtldd {
+	padding: 0;
+}
+
+
+}
+
+@media(max-width:767px) {
+
+#ninja-slider {
+	width: 88%;
+	margin-left: 0;
+}
+.pro_slider {
+	padding: 16px 15px 15px 15px;
+}
+
+}
+
+
+@media(max-width:640px) {
+#ninja-slider {
+    width: 86%;
+}
+#thumbnail-slider {
+    height: 252px !important;
+}
+}
+
+@media(max-width:575px) {
+#ninja-slider {
+    width: 81%;
+}
+#ninja-slider ul {
+    height: 279px !important;
+}
+}
+
+@media(max-width:480px) {
+#thumbnail-slider ul li {
+width:44px !important;
+height:50px !important;
+}
+
+#ninja-slider {
+    width: 80%;
+}
+}
